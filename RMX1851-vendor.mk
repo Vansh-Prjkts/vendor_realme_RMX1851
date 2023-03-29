@@ -251,6 +251,15 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
     vendor/realme/RMX1851/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/realme/RMX1851/proprietary/vendor/etc/default-permissions/com.qualcomm.qti.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/com.qualcomm.qti.cne.xml \
+    vendor/realme/RMX1851/proprietary/vendor/etc/hbtp/hbtpcfg.dat:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/hbtpcfg.dat \
+    vendor/realme/RMX1851/proprietary/vendor/etc/hbtp/hbtpcfg_sdm710_800h_qhd.dat:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/hbtpcfg_sdm710_800h_qhd.dat \
+    vendor/realme/RMX1851/proprietary/vendor/etc/hbtp/hbtpcfg_sdm710_800s_fhd.dat:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/hbtpcfg_sdm710_800s_fhd.dat \
+    vendor/realme/RMX1851/proprietary/vendor/etc/hbtp/hbtpcfg_sdm710_801s_2k.dat:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/hbtpcfg_sdm710_801s_2k.dat \
+    vendor/realme/RMX1851/proprietary/vendor/etc/hbtp/hbtpcfg_sdm710_801s_qhd.dat:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/hbtpcfg_sdm710_801s_qhd.dat \
+    vendor/realme/RMX1851/proprietary/vendor/etc/hbtp/loader.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/loader.cfg \
+    vendor/realme/RMX1851/proprietary/vendor/etc/hbtp/qtc800h.bin:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/qtc800h.bin \
+    vendor/realme/RMX1851/proprietary/vendor/etc/hbtp/qtc800s_dsp.bin:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/qtc800s_dsp.bin \
+    vendor/realme/RMX1851/proprietary/vendor/etc/hbtp/qtc801s.bin:$(TARGET_COPY_OUT_VENDOR)/etc/hbtp/qtc801s.bin \
     vendor/realme/RMX1851/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/realme/RMX1851/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc \
     vendor/realme/RMX1851/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
@@ -487,6 +496,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/vendor/lib/libgf_hal_G3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgf_hal_G3.so \
     vendor/realme/RMX1851/proprietary/vendor/lib/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpudataproducer.so \
     vendor/realme/RMX1851/proprietary/vendor/lib/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgsl.so \
+    vendor/realme/RMX1851/proprietary/vendor/lib/libhbtpclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhbtpclient.so \
+    vendor/realme/RMX1851/proprietary/vendor/lib/libhbtpdsp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhbtpdsp.so \
+    vendor/realme/RMX1851/proprietary/vendor/lib/libhbtpfrmwk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhbtpfrmwk.so \
     vendor/realme/RMX1851/proprietary/vendor/lib/libhdmiedid.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdmiedid.so \
     vendor/realme/RMX1851/proprietary/vendor/lib/libhdmipassthru.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdmipassthru.so \
     vendor/realme/RMX1851/proprietary/vendor/lib/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdr_tm.so \
@@ -893,6 +905,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libgps.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgps.utils.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpudataproducer.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgsl.so \
+    vendor/realme/RMX1851/proprietary/vendor/lib64/libhbtpclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhbtpclient.so \
+    vendor/realme/RMX1851/proprietary/vendor/lib64/libhbtpdsp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhbtpdsp.so \
+    vendor/realme/RMX1851/proprietary/vendor/lib64/libhbtpfrmwk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhbtpfrmwk.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libhdcp1prov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcp1prov.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libhdcp2p2prov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcp2p2prov.so \
     vendor/realme/RMX1851/proprietary/vendor/lib64/libhdcpsrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcpsrm.so \
